@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazzify</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--Custom Css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--import font Oswald y Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--logo, barra de navegación y buscador-->
+    <header class="header">
+        <div class="up-header">
+            <img class="logo" src="img/Logo.png" alt="Logo Jazzify">
+            <nav class="menu">
+                <ul>
+                    <li class="menu-items">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="#">Music</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="nav-right">
+                <li>
+                    <input type="text">
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                    <a href="#registration-form">
+                        <button>Register</button>  
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <article>
+        <!--foto de portada y selección por tipos: artista, estilo o época-->
+        <section>
+            <div class="foto-portada"></div>
+            <div class="slogan1">
+                <h1>Your Jazz music store!</h1>
+            </div>
+            <div class="slogan2">
+                <h2>All the Jazz music from all ages and styles</h2>
+                <h4>It don't mean a thing, if it ain't got that swing!</h4>
+            </div>
+            <div class="choose-music">
+                <a href="#">
+                    <img class="foto-choose" src="img/billie_holiday 2.png" alt="Artist">
+                    <div class="choose-options">
+                        <h1 class="title-artist">Artist</h1>
+                        <p class="description">If there ever someone recorded a jazz tune, this is the place to find it.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img class="foto-choose" src="img/historia-del-jazz-swing.jpg" alt="Styles">
+                    <div class="choose-options">
+                        <h1 class="title-styles">Styles</h1>
+                        <p class="description">Because jazz is a big family: swing era, bee bop, coll jazz, vanguard, free jazz etc...</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <img class="foto-choose" src="img/ages of jazz.jpg" alt="Ages">
+                    <div class="choose-options">
+                        <h1 class="title-ages">Ages</h1>
+                        <p class="description">You can find jazz music from any decade, from early 20th century until now.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!--nuevos discos y novedades-->
+        <section class="new-music">
+            <div class="title-new">
+                <h1>New albums & Highlights</h1>
+                <h6>Discover the newest jazz music!</h6>
+            </div>
+            <div class="highlights">
+                <a href="#">
+                    <iframe class="band-video" width="400" height="225" src="https://www.youtube.com/embed/OJiFZe77IIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="band"> 
+                        <h1>The Swing Shouters - "Savoy"</h1>
+                        <p>The golden Swing era is alive in this special new album.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <iframe class="band-video" width="400" height="225" src="https://www.youtube.com/embed/yu1lYjSkLyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="band"> 
+                        <h1>Carolina Reapers - "Down by the riverside"</h1>
+                        <p>Blues, rhythm & blues, and the best swing from the 40's and 50's.</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <iframe class="band-video" width="400" height="225" src="https://www.youtube.com/embed/k4NPlc4tDNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="band"> 
+                        <h1>Pol Prats Quintet - "Do it the hard way"</h1>
+                        <p>Expected new album from this amazing tenor sax player.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!--artista del mes: biografía y disco semanal-->
+        <section>
+            <div class="title-artist-month">
+                <h1>Artist of the month</h1>
+                <h6>MILES DAVIS</h6>
+            </div>
+            <div class="artist-month">
+                <div class="biography">
+                    <a href="#">
+                        <img class="foto-biography" src="img/Miles HD.jfif" alt="Artist">
+                    </a>
+                    <div class="title-biography"> 
+                        <h1>Biography</h1>
+                        <p>Discover one of the most important trumplet players and composer of all times.</p>
+                    </div>
+                </div>
+                <div class="album">
+                    <a href="#">
+                        <img class="foto-album" src="img/birth cool 2.jpg" alt="Styles">
+                    </a>
+                    <div class="title-album"> 
+                        <h1>Album of the week - "THE BIRTH OF THE COOL"</h1>
+                        <p>The album were Miles Davis changed the path once again, creating the coll jazz style. .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <!--pié de página-->
+    <footer class="footer">
+        <!--formulario de registro-->
+        <div id="registration-form">
+            <h2 class="title-registration">Register and get access to the biggest jazz collection!</h2>
+            <ul class="registration">
+                <li class="registration-item">
+                    <input 
+                        placeholder="Introduce mail"  type="text"
+                        class="registration input"
+                    >
+                </li>
+                <li class="registration-item">
+                    <input 
+                        placeholder="Introduce password" type="text"
+                        class="registration input"
+                    >
+                </li class="registration-item">
+                    <a href="#">
+                        <button>Register</button>  
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--redes sociales-->
+        <div class="social">
+            <a href="#"><img class="social-item" src="img/iconfinder_circle-facebook__317752.png" alt="facebook"></a>
+            <a href="#"><img class="social-item" src="img/iconfinder_Social-media_Youtube_4362951.png" alt="youtube"></a>
+            <a href="#"><img class="social-item" src="img/iconfinder_pinterest_317731.png" alt="pinterest"></a>
+            <a href="#"><img class="social-item" src="img/iconfinder_instagram_2142569.png" alt="instagram"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright Jazzify - 2020</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
